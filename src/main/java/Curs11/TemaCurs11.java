@@ -13,6 +13,7 @@ import Utils.BaseTest;
 
 public class TemaCurs11 extends BaseTest{
 	
+	
 	@Test
 	public void singleAuthor() {
 		NavigationMenu single = new NavigationMenu(driver);
