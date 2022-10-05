@@ -20,10 +20,15 @@ public class NavigationMenu {
 	//driver.findElement(shopLink);
 	public By contactLink = By.linkText("CONTACTS");
 	public By loginLink = By.linkText("Login");
+	public By singleAuthor = By.linkText("SINGLE AUTHOR");
 	
 	public void navigateTo(By locator) {
 		driver.findElement(locator).click();
+	
 		
+		
+		
+				
 	}
 
 }

@@ -27,7 +27,7 @@ public class ShopPage {
 	
 	public String getCurrentSelection() {
 		WebElement elem = driver.findElement(dropDown);
-		Select selectDropDown = new Select(null);
+		Select selectDropDown = new Select(elem);
 		return selectDropDown.getFirstSelectedOption().getText();
 	
 		
