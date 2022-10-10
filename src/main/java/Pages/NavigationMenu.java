@@ -21,6 +21,7 @@ public class NavigationMenu {
 	public By contactLink = By.linkText("CONTACTS");
 	public By loginLink = By.linkText("Login");
 	public By singleAuthor = By.linkText("SINGLE AUTHOR");
+	public By blogMenu = By.linkText("BLOG");
 	
 	public void navigateTo(By locator) {
 		driver.findElement(locator).click();
