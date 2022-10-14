@@ -33,11 +33,9 @@ public class TemaCurs13 extends BaseTest {
 		
 		BlogPage blog = new BlogPage(driver);
 		blog.doubleClick(blog.playButton);
-		Thread.sleep(2000);
 		blog.moveMusicSlider(blog.musicSlider, 200, 0);
-		Thread.sleep(2000);
 		blog.moveVolumeSlider(blog.volumeSlider, -50, 0);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		
 	}
 	
