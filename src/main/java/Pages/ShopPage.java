@@ -22,6 +22,7 @@ public class ShopPage {
     public By addToCart = By.xpath("//a[@class='button product_type_simple add_to_cart_button ajax_add_to_cart']");
     public By cartItems = By.cssSelector("span[class='cart_items']");
     
+    
 	//metode
 	public void filterByValue(String value) {
 		WebElement elem = driver.findElement(dropDown);
